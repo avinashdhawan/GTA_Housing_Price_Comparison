@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IPyWidget export</title>
+</head>
+<body>
+
+
+<!-- Load require.js. Delete this if your page already loads require.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js" crossorigin="anonymous"></script>
+
+<script type="application/vnd.jupyter.widget-state+json">
+{
+  "version_major": 2,
+  "version_minor": 0,
+  "state": {
+    "4895e7df024d4060b42b11b00cf37027": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {
+        "height": "100%",
+        "width": "100%"
+      }
+    },
+    "283f8b83693e45669b59ac21205b7bf2": {
+      "model_name": "PlainmapModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "configuration": {
+          "api_key": "AIzaSyBO2JYf3TzU_EOW2U4FKBlegLhBePkFQnA"
+        },
+        "data_bounds": [
+          [
+            43.24851721964159,
+            -79.84225651360583
+          ],
+          [
+            43.77280361369174,
+            -79.62692890074464
+          ]
+        ],
+        "initial_viewport": {
+          "type": "DATA_BOUNDS"
+        },
+        "layers": [
+          "IPY_MODEL_19b448e8e2e647dc991cd23ad24f88d7",
+          "IPY_MODEL_a94821fc207f477da492035d14c4953e"
+        ],
+        "layout": "IPY_MODEL_4895e7df024d4060b42b11b00cf37027"
+      }
+    },
+    "c31e20c7026146efae412b6ee244e234": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "717da48c44c1466a83d2a8607998982d": {
+      "model_name": "ToolbarModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "layer_controls": [],
+        "layout": "IPY_MODEL_c31e20c7026146efae412b6ee244e234"
+      }
+    },
+    "3b4ce8d45b7343ebae6f1511c39aa764": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "a0246ba1b7f147c5a31ae5b91a36473e": {
+      "model_name": "ErrorsBoxModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "errors": [],
+        "layout": "IPY_MODEL_3b4ce8d45b7343ebae6f1511c39aa764"
+      }
+    },
+    "2e70e1a9170e4ea7956ba512939a4f12": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {
+        "height": "420px"
+      }
+    },
+    "a752d23459404ec19729a7f11820be52": {
+      "model_name": "FigureModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "_dom_classes": [],
+        "_errors_box": "IPY_MODEL_a0246ba1b7f147c5a31ae5b91a36473e",
+        "_map": "IPY_MODEL_283f8b83693e45669b59ac21205b7bf2",
+        "_toolbar": "IPY_MODEL_717da48c44c1466a83d2a8607998982d",
+        "layout": "IPY_MODEL_2e70e1a9170e4ea7956ba512939a4f12"
+      }
+    },
+    "19b448e8e2e647dc991cd23ad24f88d7": {
+      "model_name": "WeightedHeatmapLayerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "data_bounds": [
+          [
+            43.24851721964159,
+            -79.84225651360583
+          ],
+          [
+            43.77280361369174,
+            -79.62692890074464
+          ]
+        ],
+        "dissipating": false,
+        "gradient": null,
+        "locations": [
+          [
+            43.68813333333333,
+            -79.75903333333333
+          ],
+          [
+            43.573924999999996,
+            -79.66763750000001
+          ],
+          [
+            43.436350000000004,
+            -79.7029
+          ],
+          [
+            43.344233333333335,
+            -79.8088
+          ]
+        ],
+        "max_intensity": 1200000.0,
+        "point_radius": 0.08,
+        "weights": [
+          758944,
+          614124,
+          1400014,
+          812717
+        ]
+      }
+    },
+    "970e48b601654a94a8d193e2169e7f87": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>City</dt><dd>Brampton</dd>\n<dt>Average House Price</dt><dd>758944</dd>\n<dt>Average Elementary School Score</dt><dd>6.354000000000001</dd>\n<dt>Average High School Score</dt><dd>5.9312499999999995</dd>\n</dl>\n",
+        "location": [
+          43.68813333333333,
+          -79.75903333333333
+        ]
+      }
+    },
+    "4ee998daa1d244a5ba5aa5d8aba08767": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>City</dt><dd>Mississauga</dd>\n<dt>Average House Price</dt><dd>614124</dd>\n<dt>Average Elementary School Score</dt><dd>6.8065217391304325</dd>\n<dt>Average High School Score</dt><dd>6.499999999999999</dd>\n</dl>\n",
+        "location": [
+          43.573924999999996,
+          -79.66763750000001
+        ]
+      }
+    },
+    "a3850a4f8f5f47048cef7e1cbeacdbb8": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>City</dt><dd>Oakville</dd>\n<dt>Average House Price</dt><dd>1400014</dd>\n<dt>Average Elementary School Score</dt><dd>7.522727272727274</dd>\n<dt>Average High School Score</dt><dd>8.342857142857143</dd>\n</dl>\n",
+        "location": [
+          43.436350000000004,
+          -79.7029
+        ]
+      }
+    },
+    "4639d6f1bbd7415991589b3448f5c05b": {
+      "model_name": "MarkerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "display_info_box": true,
+        "info_box_content": "\n<dl>\n<dt>City</dt><dd>Burlington</dd>\n<dt>Average House Price</dt><dd>812717</dd>\n<dt>Average Elementary School Score</dt><dd>6.678571428571429</dd>\n<dt>Average High School Score</dt><dd>7.000000000000001</dd>\n</dl>\n",
+        "location": [
+          43.344233333333335,
+          -79.8088
+        ]
+      }
+    },
+    "a94821fc207f477da492035d14c4953e": {
+      "model_name": "MarkerLayerModel",
+      "model_module": "jupyter-gmaps",
+      "model_module_version": "0.9.0",
+      "state": {
+        "data_bounds": [
+          [
+            43.24851721964159,
+            -79.84225651360583
+          ],
+          [
+            43.77280361369174,
+            -79.62692890074464
+          ]
+        ],
+        "markers": [
+          "IPY_MODEL_970e48b601654a94a8d193e2169e7f87",
+          "IPY_MODEL_4ee998daa1d244a5ba5aa5d8aba08767",
+          "IPY_MODEL_a3850a4f8f5f47048cef7e1cbeacdbb8",
+          "IPY_MODEL_4639d6f1bbd7415991589b3448f5c05b"
+        ]
+      }
+    }
+  }
+}
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"version_major": 2, "version_minor": 0, "model_id": "a752d23459404ec19729a7f11820be52"}
+</script>
+
+</body>
+</html>
