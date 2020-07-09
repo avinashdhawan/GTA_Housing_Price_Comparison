@@ -10,7 +10,7 @@
   This project was prepared using Pandas with various Python libraries.
 
 # Authors
-  Avinash Dhawan
-  Sherana Syed
-  Raj Periyasamy
+  Avinash Dhawan,
+  Sherana Syed,
+  Raj Periyasamy,
   Jasmeet Aujla
